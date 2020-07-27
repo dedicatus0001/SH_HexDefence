@@ -15,7 +15,9 @@ UCLASS()
 class SH_NEWGAME_API UWidget_SaveEditMapSlot : public UUserWidget
 {
 	GENERATED_BODY()
+	// 세이브 위젯 맵 데이터 슬롯 처리 부분 클래스
 public:
+	// 데이터 저장 처리 방법
 	UFUNCTION()
 		void SetSaveSlot();
 	UFUNCTION()
